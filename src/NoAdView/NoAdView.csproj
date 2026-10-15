@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>몽뷰</AssemblyName>
+    <RootNamespace>NoAdView</RootNamespace>
+    <ApplicationIcon>..\..\res\app.ico</ApplicationIcon>
+    <Version>0.1.5</Version>
+    <Product>몽뷰</Product>
+    <Description>광고 없는 이미지·만화 뷰어</Description>
+    <!-- 설치된 .NET 이 더 새 버전이어도 실행되게 -->
+    <RollForward>LatestMajor</RollForward>
+    <SatelliteResourceLanguages>ko</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpCompress" Version="0.50.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\res\app.ico" Link="app.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="NoAdView.Tests" />
+  </ItemGroup>
+
+</Project>
