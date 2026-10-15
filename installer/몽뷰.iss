@@ -4,7 +4,7 @@
 #endif
 #define AppName "몽뷰"
 #define AppExe "몽뷰.exe"
-#define AppVersion "0.1.4"
+#define AppVersion "0.1.5"
 
 [Setup]
 AppId={{3B7E9D12-5A4C-4F68-8E21-C0D9A6B14F35}
