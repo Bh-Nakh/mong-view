@@ -22,4 +22,4 @@
 
 ## 문의
 
-상표 사용 허가나 이름 변경에 관한 문의는 GitHub 이슈(https://github.com/Bh-Nakh)로 보낸다.
+상표 사용 허가나 이름 변경에 관한 문의는 GitHub 이슈(https://github.com/Bh-Nakh/mong-view/issues)로 보낸다.
